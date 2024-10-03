@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aec7e0; /* Un gris claro */
+}
+
+
+header {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+/* --simbolo al lado del titulo comet */
+#loadingSymbol {
+    font-weight: bold;
+    font-style: italic;
+}
+/* Estilos para el texto principal */
+h2 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #007bff; /* Color azul */
+    text-shadow: 2px 2px 4px rgba(0, 123, 255, 0.5); /* Sombra para darle profundidad */
+}
+
+h5 {
+    font-size: 1.75rem; /* Tamaño de fuente más grande para subtítulos */
+    color: #1d2227; /* Color gris oscuro */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas para enfatizar */
+}
+
+p.small {
+    font-size: 1rem; /* Tamaño de fuente estándar */
+    color: #6c757d; /* Color gris más suave */
+    font-style: italic; /* Cursiva para darle un toque diferente */
+}
+
+/* Enlace "learn more" */
+p.small a {
+    color: #007bff; /* Color azul para el enlace */
+    text-decoration: underline; /* Subrayado */
+    transition: color 0.3s; /* Suaviza el cambio de color */
+}
+
+p.small a:hover {
+    color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
+
+
